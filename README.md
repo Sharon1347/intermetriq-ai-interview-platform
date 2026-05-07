@@ -1,95 +1,120 @@
-# InterMetriq – AI-Powered Interview Platform 🎙️🧠
+# InterMetriq — AI-Powered Interview Platform 🎙️🧠
 
-[🚀 **Live Demo Here**](https://inter-metric-interview-platform.vercel.app/)
+InterMetriq is a full-stack AI interview platform designed to help users practice technical and behavioral interviews through real-time voice conversations, AI-generated feedback, and structured coaching workflows.
 
-InterMetriq is an advanced, AI-driven platform designed to help users strengthen their technical interview skills through mock assessments, instant AI voice feedback, and performance tracking.
+The platform simulates mock interviews using voice AI and evaluates candidate responses across multiple dimensions including communication, technical reasoning, confidence, and problem-solving ability.
 
----
-
-## 📌 Key Features
-
-✅ **AI-Powered Voice Feedback (Vapi):**  
-Simulates real-world interviews by providing instant, voice-based feedback for a realistic interview experience.
-
-✅ **Real-Time Insights:**  
-Provides immediate, actionable feedback to help users learn and improve faster.
-
-✅ **Secure Firebase Integration:**
-- User Authentication  
-- Secure storage of interview history and performance data  
-- Feedback records managed via Firebase Authentication & Cloud Firestore  
-
-✅ **Clean, Responsive Interface:**  
-Built with Tailwind CSS for a fast, mobile-friendly experience.
-
-✅ **Fast, Seamless Deployment:**  
-Deployed on Vercel for continuous delivery and global availability.
+Built as an end-to-end portfolio project using Next.js, Firebase, Vapi AI, Google Gemini and Anthropic Claude SDK integrations.
 
 ---
 
-## 📂 Project Structure
+## 🚀 Live Demo
 
-public/               — Static assets and icons  
-src/                  — Source code (components, pages, utils, styles)  
-   ├── app/          — Application pages and routing  
-   ├── constants/    — Static constants and configuration data  
-   ├── components/   — Reusable UI components  
-   ├── lib/          — Utility functions and libraries  
-   └── styles/       — Global stylesheets  
-screenshots/          — Screenshots for demo and documentation  
-next.config.js        — Next.js configuration  
-package.json          — Project dependencies and scripts  
-README.md             — Project documentation (this file)  
-
-## 📸 Screenshots
-
-### 🔹 Dashboard Overview
-[Dashboard Screenshot](https://surli.cc/akjzof)
+[View Live Application](https://inter-metric-interview-platform.vercel.app)
 
 ---
 
-### 🔹 AI-Powered Voice Workflow
-[Workflow](https://surl.li/jatxpp)
+# 📌 Core Features
+
+## ✅ AI-Powered Voice Interviews
+
+Uses Vapi AI to simulate realistic interview conversations with real-time voice interaction.
+
+Features include:
+
+- AI interviewer voice sessions
+- Real-time conversation flow
+- Voice-based interview experience
+- Interview state handling and session control
 
 ---
 
-### 🔹 Analytics
-[Vapi Metrics](https://surl.li/afowvv))
+## ✅ AI Feedback & Scoring
+
+After each interview session, the platform generates structured feedback across multiple categories:
+
+- Communication
+- Technical Knowledge
+- Problem Solving
+- Cultural Fit
+- Confidence
+
+Users receive:
+
+- Overall interview score
+- Strength analysis
+- Improvement recommendations
+- Structured coaching feedback
 
 ---
 
+## ✅ AI Job Coach
 
-### 🔹 Feedback
-[Firebase](https://surli.cc/bnmigt)
+Integrated AI coaching workflows allow users to:
 
----
-
-
-### 🔹 Users
-[Registered](https://surl.li/qmqgcd)
-
----
-
-
-### 🔹 Authentication
-[Sign-in ](https://surl.li/ckpdoy)
+- Generate interview questions
+- Practice role-specific interviews
+- Receive tailored preparation guidance
+- Review suggested sample answers
 
 ---
 
-## ⚙️ Tech Stack
+## ✅ Cover Letter Generator
 
-| Technology       | Purpose                                        |
-|------------------|-----------------------------------------------|
-| **Next.js**      | React-based web framework for frontend         |
-| **Tailwind CSS** | Styling and responsive UI                      |
-| **Firebase**     | Authentication & Firestore for secure backend  |
-| **Vapi AI API**  | Voice-powered AI feedback and analysis         |
-| **Vercel**       | Hosting and continuous deployment              |
+Includes AI-assisted cover letter generation workflows for job applications.
 
 ---
 
+## ✅ Authentication & User Management
 
+Firebase Authentication handles:
 
+- User sign up
+- Secure login
+- Session management
 
+Firestore stores:
 
+- Interview history
+- Feedback records
+- User-generated sessions
+- Coaching workflows
 
+---
+
+## ✅ Responsive UI
+
+Built with Tailwind CSS for:
+
+- Mobile responsiveness
+- Clean dashboard layouts
+- Fast client-side interactions
+- Structured user workflows
+
+---
+
+# 🛠️ Tech Stack
+
+| Technology | Purpose |
+|---|---|
+| Next.js 15 | Frontend framework |
+| TypeScript | Type-safe development |
+| Firebase Authentication | User authentication |
+| Cloud Firestore | Backend database |
+| Tailwind CSS | UI styling |
+| Vapi AI | Real-time voice AI interviews |
+| Google Gemini 2.5 | AI generation workflows |
+| Anthropic Claude SDK | Structured AI responses |
+| Vercel | Deployment and hosting |
+
+---
+
+# 📂 Project Structure
+
+```text
+app/            → Application routes and pages
+components/     → Reusable UI components
+constants/      → Static configuration and constants
+lib/            → Utilities and helper functions
+public/         → Static assets and branding files
+types/          → TypeScript interfaces and types
